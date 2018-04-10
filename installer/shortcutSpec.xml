@@ -1,0 +1,35 @@
+<shortcuts>
+	<skipIfNotSupported/>
+	<defaultCurrentUser/>
+	<programGroup defaultName="DBN" location="startMenu"/>
+	<shortcut
+		name="Dbn Server"
+		target="$INSTALL_PATH\dbn.exe"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Start DBN server"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+	<shortcut
+		name="Dbn Wallet"
+		target="http://localhost:7826/index.html"
+		commandLine=""
+		workingDirectory="$INSTALL_PATH"
+        description="Launch DBN wallet in browser"
+		iconFile="$INSTALL_PATH\html\www\favicon.ico"
+        iconIndex="0"
+        initialState="normal"
+        programGroup="yes"
+		desktop="yes"
+        applications="no"
+        startMenu="no"
+		startup="no">
+	</shortcut>	
+</shortcuts>
